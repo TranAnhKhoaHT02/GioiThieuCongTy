@@ -1,0 +1,89 @@
+﻿@import "general.css";
+form {
+margin:0;
+padding:0;
+}
+form .inputbox {
+margin-left:10px;
+width:120px;
+}
+form br {
+display:none;
+}
+.login {
+margin:0 auto 150px;
+width:500px;
+}
+h1 {
+margin:15px 0;
+}
+p {
+margin:0 0 10px;
+padding:0;
+}
+#lock {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:transparent url(../images/j_login_lock.jpg) no-repeat scroll 50% 0;
+height:137px;
+width:150px;
+}
+#content-box .m {
+padding:10px;
+}
+#content-box .padding {
+padding:30px 0;
+}
+#section-box {
+float:right;
+margin-left:10px;
+width:320px;
+}
+#section-box .m {
+padding:5px;
+}
+#section-box .padding {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:transparent none repeat scroll 0 0;
+padding:0;
+}
+.button {
+text-align:right;
+}
+.login-form {
+text-align:left;
+width:60%;
+}
+.login-form h1 {
+display:none;
+}
+.login-form p {
+padding:0 1em;
+}
+.login-text {
+float:left;
+text-align:left;
+width:40%;
+}
+#form-login div {
+color:#666666;
+display:block;
+float:left;
+font-weight:bold;
+padding:4px;
+text-align:right;
+width:120px;
+}
+#form-login .button_holder {
+float:left;
+padding-left:180px;
+}
+#form-login div.button1 {
+float:left;
+}
+#form-login div.button1 div.next {
+float:left;
+}

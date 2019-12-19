@@ -1,0 +1,119 @@
+﻿*
+{
+	margin:0px;padding:0px;
+}
+body
+{
+	/*background:#FFEFDF;*/
+	background:url(../Images/thanhbody2.png) repeat-x ;
+}
+div#body
+{
+	width:980px;
+	margin-left:auto;
+	margin-right:auto;	
+	background:url(../Images/thanhbody2.png) repeat-x ;
+	}
+div#header
+{
+width:980px;
+height:161px;
+margin:auto;
+
+}
+div#header div#banner
+{
+	width:980px;
+	height:135px;
+	position:relative;
+}
+div#img_banner
+{
+	width:980px;
+	height:120px;
+	}
+
+div#main
+{
+	width:980px;
+	margin:auto;
+}
+div#main_left
+{
+	float:left;
+	width:180px;	
+	min-height:300px;
+	height:auto;
+	margin-bottom:6px;	
+	border:0.5px solid gray;
+	-moz-border-radius: 7px 7px 5px 5px;
+}
+
+div#main_right
+{
+	float:right;
+	width:180px;
+	border:0.5px solid gray;	
+	min-height:300px;
+	height:auto;
+	margin-bottom:6px;
+	-moz-border-radius: 7px 7px 5px 5px;
+	
+}
+div#main_center
+{
+	float:left;
+	height:auto;
+	margin-bottom:6px;
+}
+div#footer
+{
+	color:White;
+	height:90px;
+	background:#636764;
+	text-align:center;
+	width:980px;
+	clear:both;
+	margin:auto;
+}
+div#footer a, .footer p
+{
+	color:white;
+}
+div#footer a:hover
+{
+	color:#fda3a3;
+}
+div#nav
+{
+	width:1000px;
+	height:47px;
+	border:1px #d3d3f3 solid;
+}
+.chungbogoc
+{  border:solid 1px #C0C0C0;
+	-moz-border-radius:7px 7px 7px 7px;
+	height:200px;
+	margin:7px 10px 5px 9.5px;
+	width:597px;
+	}
+.vanban{font-family:Tahoma SansSerif; font-size:13pt; text-indent:10px; margin-left:10px; width:585px}
+.web{text-align: justify; margin-left:5px; margin-right:5px;font-size:12pt; font-family:Times New Roman Arial Sans-Serif; line-height:22px;}
+.HPLink
+{
+    text-decoration:none;
+    text-align:justify;
+    font-size:8.5pt;
+    font-family:Verdana;
+    padding-left:2px;
+    padding-top:5px;
+    margin-right:2px;
+    color:black;
+    
+}
+.HPLink :hover
+{
+    text-decoration:none;
+    color:#003a5e;
+    
+}

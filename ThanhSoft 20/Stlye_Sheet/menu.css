@@ -1,0 +1,143 @@
+﻿div#menu
+{
+	
+    height:35px;
+    background:#fff;
+   /* border-bottom: 1px solid #38c6ef;*/
+	}
+div#menu ul {
+    padding: 0;
+    list-style: none;
+    float: left;
+	}
+div#menu ul.menu {
+    padding-left: 11px;
+    font-size:12pt;
+}
+div#menu li {
+    position: relative;
+    z-index: 9;
+    margin: 0;
+    padding: 0 5px 0 0;
+    display: block;
+    text-align:left;
+    float: left;
+}
+div#menu li:hover>ul {
+    left: -2px;
+}
+div#menu a {
+    position: relative;
+    z-index: 5;
+    height: 30px;
+    display: block;
+    float: left;
+    line-height: 35px;
+    text-decoration: none;
+    font: time new roman 14px ;
+}
+div#menu a:hover, .menu a:hover span { color: #a43803; }
+div#menu li.current a {}
+div#menu span {
+    display: block;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: 95% 0;
+}
+div#menu ul ul a.parent span {
+    background-position:95% 8px;
+  
+}
+
+/* menu::level1 */
+/*Cách các phần nội dung menu và đổi chữ của menu thành màu den*/
+div#menu a {
+    padding: 0 6px 0 6px;
+    line-height: 30px;
+    color: #024469;
+   
+}
+/*Các chữ trong menu cách mép dưới của banner 5px*/
+div#menu span {
+    margin-top: 5px;
+}/**@replace#1*/
+/*Ngăn cách các menu bằng hình ảnh dấu gạch*/
+div#menu li { background: url(../Images/menu.png) 98% 12px no-repeat;
+              }
+
+/* menu::level2 */
+div#menu ul ul li { background: none; }
+/*Thu menu con vào trong menu cha*/
+div#menu ul ul {
+    position: absolute;
+    top: 34px;
+    left: -999em;
+    width: 163px;
+    padding: 5px 0 0 0;
+    background:#fff;
+    margin-top:1px;
+}
+/*????????*/
+div#menu ul ul a {
+    padding: 0 0 0 15px;
+    height: auto;
+    float: none;
+    display: block;
+    line-height: 24px;
+    color: #024469;
+    border:0.1px solid gray;
+}
+div#menu ul ul span {
+    margin-top: 0;
+    padding-right: 15px;
+    _padding-right: 20px;
+    color: #cccccc;
+}
+div#menu ul ul a:hover span {
+    color: #a43803;
+}
+div#menu ul ul li.last { background: none; }
+div#menu ul ul li {
+    width: 100%;
+}
+
+/* menu::level3 */
+div#menu ul ul ul {
+    padding: 0;
+    margin: -38px 0 0 163px !important;
+    margin-left:172px;
+}
+
+/* colors */
+div#menu ul ul ul { background: #292929; }
+div#menu ul ul ul ul { background: #262626; }
+div#menu ul ul ul ul { background: #232323; }
+
+/* lava lamp */
+div#menu li.back 
+{
+	padding-top:2px;
+    background: url(../Images/lava.png) no-repeat right -44px !important;
+    background-image: url(../Images/lava.png);
+    width:13px;
+    height: 35px;
+    z-index: 8;
+    position: absolute;
+    margin: -1px 0 0 1px;
+    
+}
+div#menu li.back .left 
+{
+	padding-top:9px;
+    background: url(../Images/lava.png) no-repeat top left !important;
+    background-image: url(../Images/lava.png);
+    height: 35px;
+    margin-right: 8px;
+    
+}
+div#menu li.search
+{
+	margin-top:5px;
+	font:time new roman 13px Trebuchet MS;
+	background-image:none;
+	}

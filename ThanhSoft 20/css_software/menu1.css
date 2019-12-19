@@ -1,0 +1,49 @@
+﻿.menu1
+{
+	color:Red;
+	background-image:url(../images/tool/test_menu.png);
+}
+a.level1
+{
+	font-family:Arial;
+	clear:both;
+    color: #fff;
+/*    background-image:url(../images/tool/test_menu.png);*/
+
+}
+a.level2
+{
+    
+/*    background-image:url(../images/tool/test_menu_hover.png);*/
+    font-family:Arial;
+    color:Black;
+    
+
+}
+a.level2 hover
+{
+    
+    background-image:url(../images/tool/test_menu.png);
+    font-family:Arial;
+
+}
+
+.level3
+{
+
+	background-image:url(../images/tool/test_menu.png);
+}
+
+.hoverstyle
+{
+    /*background: #00ff00 url(../images/tool/test_menu_hover.png) repeat-x;*/
+}
+.sublevel1
+{
+	/*background: #00ff00 url(../images/tool/test_menu_hover.png) repeat-x;*/
+}
+.IE8Fix
+{
+    z-index: 1000;
+
+}

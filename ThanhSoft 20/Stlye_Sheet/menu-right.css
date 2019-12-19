@@ -1,0 +1,33 @@
+﻿* { margin:0; padding:0; }
+
+#newsticker-demo { 
+width:179px; 
+background:#EAF4F5; 
+padding:0 0 0; 
+font-family:time new roman;
+font-size:13px;
+margin: auto;
+}
+
+#newsticker-demo a  
+{
+	color:#0611f1;
+	 text-decoration:none;
+	 position: relative;
+    z-index: 5;
+     }
+#newsticker-demo img  
+{
+	height:80px;
+	width:75px;
+	border: 0.5px solid #FFFFFF; }
+	
+#newsticker-demo  a:hover, #newsticker-demo a:hover span { color: #a43803; }
+
+.newsticker-jcarousellite { width:179px;  }
+.newsticker-jcarousellite ul li{ list-style:none; display:block; padding-bottom:1px; margin-bottom:8px; }
+.newsticker-jcarousellite .thumbnail { float:left; width:53px; margin-left:2px; }
+.newsticker-jcarousellite .info { float:left;}
+
+
+.clear { clear: both; }

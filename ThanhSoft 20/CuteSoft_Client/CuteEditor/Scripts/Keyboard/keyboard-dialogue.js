@@ -1,0 +1,1 @@
+var OxO8fd9=["value","keyboard_area"];function afficher(Ox282){document.getElementById(OxO8fd9[1])[OxO8fd9[0]]=Ox282;} ;function rechercher(){return document.getElementById(OxO8fd9[1])[OxO8fd9[0]];} ;

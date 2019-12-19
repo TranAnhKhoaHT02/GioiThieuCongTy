@@ -1,0 +1,82 @@
+﻿
+div.drag_main h3 a
+{
+	position:absolute;
+	width:19px;
+	height:16px;
+	right:5px;
+	bottom:2.5px;
+}
+div.main_left_drag
+{
+	background:#abd660;
+	border:#6e9325 1px solid;
+	font-family: "Lucida Grande", Verdana, sans-serif;
+    font-size: .75em;
+	margin-bottom:5px;
+}
+div#cur_tour div#cur_tour_content
+{
+	margin-top:10px;
+	width:100%;
+	margin-bottom:10px;
+}
+div#navigation-block div#navigation-block_content
+{
+	margin-bottom:8px;
+}
+div#info div#info_content
+{
+	margin-top:10px;
+	margin-bottom:15px;
+}
+div#info p
+{
+	color:White;
+	padding-left:8px
+}
+
+ul#sliding-navigation
+{
+	list-style: none;
+	padding: 0;
+	background:#abd660;
+}
+div.drag_main h3
+{
+	position:relative;
+	display: block;
+	width: 180px;
+	padding-top:5px;
+	padding-bottom:5px;
+	text-align:center;
+	margin: 0;
+	margin-bottom: 5px;
+	color: #fff;
+	background:url(../Images/img/hd_bg.gif)repeat-x;
+	font-weight: bold;
+	font-size:.75em;
+}
+div.drag_main h3:hover
+{
+	cursor:move;
+}
+ul#sliding-navigation li.sliding-element a
+{
+	display: block;
+	width: 138px;
+	padding: 5px;
+	padding-left:15px;
+	margin: 0;
+	color: white;
+	background:#abd660;
+	border-bottom: 1px solid gray;
+	text-decoration: none;
+}
+
+ul#sliding-navigation li.sliding-element a:hover  
+{
+	color: #000000;
+	background:#f4f4f4;
+}
+                                                    

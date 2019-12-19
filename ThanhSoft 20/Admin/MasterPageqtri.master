@@ -1,0 +1,84 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageqtri.master.cs" Inherits="Admin_MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>StoreManagement</title>
+    <script type="text/javascript" src="../js/mootools.js"></script>
+    <script type="text/javascript">
+		window.addEvent('domready', function(){ var JTooltips = new Tips($$('.hasTip'), { maxTitleChars: 50, fixed: false}); });
+    </script>
+   
+    <link type="text/css" rel="Stylesheet" href="../css_software/general.css" />
+    <link type="text/css" rel="Stylesheet" href="../css_software/rounded.css" />
+    <link type="text/css" rel="Stylesheet" href="../css_software/icon.css" />
+    <link type="text/css" rel="Stylesheet" href="../css_software/menu.css" />
+    <link type="text/css" rel="Stylesheet" href="../css_software/system.css" />
+    <link type="text/css" rel="Stylesheet" href="../date/cal/popcalendar.css" />
+    <link type="text/css" rel="Stylesheet" href="../css_software/menu1.css" />
+    <link href="../css_software/StyleSheet.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../JS/menuad.js"></script>
+    <script language="javascript" src="../JS/script.js" type="text/javascript"></script>
+    <script language="javascript" src="../JS/FormatNumber.js" type="text/javascript"></script>
+    <script language="javascript" src="../date/cal/popcalendar.js" type="text/javascript"></script>
+    <script src="../JS/digit.js"></script>
+     <link href="../Images/flag_vn.gif" rel="shortcut icon"/>
+</head>
+<body style="margin:0px; padding:0px;">
+<script language="JavaScript">
+<!--
+   
+//Create a div tag if Microsoft
+
+if(navigator.appName.indexOf("Microsoft") != -1)
+{
+    if (navigator.appVersion.indexOf("6.0") != -1)
+        document.write("<link type=\"text/css\" rel=\"Stylesheet\" href=\"../css/ie6.css\" />");
+    if (navigator.appVersion.indexOf("7.0") != -1)
+        document.write("<link type=\"text/css\" rel=\"Stylesheet\" href=\"../css/ie7.css\" />");
+}  
+//Set the style used for the red box
+//-->
+</script>
+
+    <form id="form1" runat="server">
+	<div id="header-box">
+		<div id="module-status" style="height:25px; background-color:#FFFFDD; background-image:url(../Images/tool/test_menu.png); font-weight:bold; " >
+		    <span class="version" id="divUser" runat="server" style="color:White;" ></span>
+			<span style="background-image:url(../Images/menu/icon-16-logout"><a href="logout.aspx" style="color:White">Thoát</a></span>
+		</div>		
+		<div style="height:25px; background-color:#FFFFDD; background-image:url(../images/tool/test_menu.png);" id="module-menu" >
+            <asp:Menu ID="mnuTools" runat="server" Orientation="Horizontal" Font-Bold="True" 
+            Height="25px" StaticSubMenuIndent="" Font-Size="8pt" MaximumDynamicDisplayLevels="5"
+            BackColor="#7CCAFA" ForeColor="White"
+            StaticEnableDefaultPopOutImage="false" CssClass="menu1" >
+                <LevelMenuItemStyles>
+                  <asp:MenuItemStyle CssClass="level1"/>
+                </LevelMenuItemStyles>
+                
+                <StaticHoverStyle CssClass="hoverstyle"/>
+                <LevelSubMenuStyles>
+                  <asp:SubMenuStyle CssClass="sublevel1" />
+                </LevelSubMenuStyles>
+
+                <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="5px" />
+                <StaticSelectedStyle BackColor="red" ForeColor="Red"/>
+                <StaticHoverStyle BackColor="#FFCC99" />
+                <DynamicMenuItemStyle BackColor="#7CCAFA" ForeColor="Red" Height="22px" HorizontalPadding="5px" VerticalPadding="2px" />
+                <DynamicSelectedStyle BackColor="red" ForeColor="Red" Height="22px"/>            
+                <DynamicHoverStyle BackColor="#FFCC99"/>
+                <DynamicMenuStyle BackColor="red" CssClass="IE8Fix"/>
+                
+            </asp:Menu>
+        </div>
+	</div>
+	<!--title for type of software-->
+	
+    <div>
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+        </asp:contentplaceholder>
+    </div>
+    </form>
+</body>
+</html>
